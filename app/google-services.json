@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "763261345434",
+    "firebase_url": "https://grevocab-5ba58.firebaseio.com",
+    "project_id": "grevocab-5ba58",
+    "storage_bucket": "grevocab-5ba58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763261345434:android:d7fe0d7cf20f44b1",
+        "android_client_info": {
+          "package_name": "com.example.tarunmatta619.grevocab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763261345434-0pnuderrn0c5t60coemrdd6c3stk2cn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tarunmatta619.grevocab",
+            "certificate_hash": "c4861eab00cb26c0ffc148ff1d28a6c687fa43dd"
+          }
+        },
+        {
+          "client_id": "763261345434-0kc6eo2j9cdotnks10aau1vj6n63c8a9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "763261345434-0kc6eo2j9cdotnks10aau1vj6n63c8a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCemH60H-Q2aNFtVanGDSrNkBuX81H5IHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763261345434-0kc6eo2j9cdotnks10aau1vj6n63c8a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
