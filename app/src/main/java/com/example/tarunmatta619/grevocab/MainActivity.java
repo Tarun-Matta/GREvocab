@@ -17,11 +17,12 @@ public class MainActivity extends AppCompatActivity {
         ImageView iv=(ImageView) findViewById(R.id.studyset);
         iv.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent ss= new Intent(MainActivity.this,studySetList.class);
-                startActivity(ss);
+            public void onClick(View v) {
+                Intent i1=new Intent(MainActivity.this,studySetList.class);
+                startActivity(i1);
             }
         });
+
         ImageView iv2=(ImageView) findViewById(R.id.practice);
         iv2.setOnClickListener(new View.OnClickListener() {
             @Override

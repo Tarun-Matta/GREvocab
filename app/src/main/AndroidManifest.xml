@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.tarunmatta619.grevocab">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".GREvocab"
         android:allowBackup="true"
@@ -22,7 +24,11 @@
         <activity android:name=".practiceList" />
         <activity android:name=".freq101" />
         <activity android:name=".barron333" />
-        <activity android:name=".manH500"></activity>
+        <activity android:name=".manH500" />
+        <activity android:name=".PracticeScreen" />
+        <activity android:name=".Adding_words" />
+        <activity android:name=".bLetterList" />
+        <activity android:name=".mLetterList"></activity>
     </application>
 
 </manifest>

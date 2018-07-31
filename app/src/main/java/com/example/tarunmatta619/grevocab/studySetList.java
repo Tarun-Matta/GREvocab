@@ -1,5 +1,6 @@
 package com.example.tarunmatta619.grevocab;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ public class studySetList extends AppCompatActivity {
         private  ImageView imageView;
         private  ImageView imageView2;
         private  ImageView imageView3;
+        //public int bcount=0,fcount=0,mcount=0,first=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,28 +37,41 @@ public class studySetList extends AppCompatActivity {
 
         Glide.with(getApplicationContext()).load(photo3).into(imageView3);
 
+
+
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent freq= new Intent(studySetList.this,freq101.class);
+
+
+                Intent freq = new Intent(studySetList.this, freq101.class);
                 startActivity(freq);
             }
+
         });
 
         imageView3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent b333= new Intent(studySetList.this,barron333.class);
+            public void onClick(View view){
+
+                Intent b333 = new Intent(studySetList.this, bLetterList.class);
                 startActivity(b333);
             }
+
+
         });
 
         imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent m500= new Intent(studySetList.this,manH500.class);
+                Intent m500= new Intent(studySetList.this,mLetterList.class);
                 startActivity(m500);
             }
         });
+
+
+
+
     }
+
 }
